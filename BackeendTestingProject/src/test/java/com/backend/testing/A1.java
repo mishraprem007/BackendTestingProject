@@ -1,5 +1,7 @@
 package com.backend.testing;
-
+/*
+ * One method can return own class type Object or another class type Object
+ */
 public class A1 {
 
 	public A1 a() {

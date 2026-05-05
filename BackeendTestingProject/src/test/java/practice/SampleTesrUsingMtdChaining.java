@@ -21,8 +21,8 @@ public class SampleTesrUsingMtdChaining {
 
 		
 		/*
-		 * without method chaining Response
-		 * resop=get("https://automationexercise.com/api/getUserDetailByEmail");
+		 * without method chaining 
+		 * Response resop=get("https://automationexercise.com/api/getUserDetailByEmail");
 		 * resop.prettyPeek();
 		 */
 

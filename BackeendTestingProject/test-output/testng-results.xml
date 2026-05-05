@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-01T16:41:01 IST" name="Default suite" finished-at="2026-05-01T16:41:02 IST" duration-ms="106">
+  <suite started-at="2026-05-04T19:46:05 IST" name="Default suite" finished-at="2026-05-04T19:46:09 IST" duration-ms="4069">
     <groups>
     </groups>
-    <test started-at="2026-05-01T16:41:01 IST" name="Default test" finished-at="2026-05-01T16:41:02 IST" duration-ms="106">
-      <class name="practice.Run">
-        <test-method signature="sampleTest()[pri:0, instance:practice.Run@18df8434]" started-at="2026-05-01T16:41:02 IST" name="sampleTest" finished-at="2026-05-01T16:41:02 IST" duration-ms="21" status="PASS">
+    <test started-at="2026-05-04T19:46:05 IST" name="Default test" finished-at="2026-05-04T19:46:09 IST" duration-ms="4069">
+      <class name="postRequestTypes.PostRequest_Vai_POJOClassTest">
+        <test-method signature="postDataToServer()[pri:0, instance:postRequestTypes.PostRequest_Vai_POJOClassTest@4b45a2f5]" started-at="2026-05-04T19:46:05 IST" name="postDataToServer" finished-at="2026-05-04T19:46:09 IST" duration-ms="3980" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest -->
-      </class> <!-- practice.Run -->
+        </test-method> <!-- postDataToServer -->
+      </class> <!-- postRequestTypes.PostRequest_Vai_POJOClassTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

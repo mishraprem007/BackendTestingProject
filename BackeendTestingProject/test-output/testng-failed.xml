@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sample.crud.withBddtest.SampleTestForCreateTest">
+      <class name="postRequestTypes.PostRequest_Vai_JSONFileTest">
         <methods>
-          <include name="postDataFromServer"/>
+          <include name="postDataToServer"/>
         </methods>
-      </class> <!-- com.sample.crud.withBddtest.SampleTestForCreateTest -->
+      </class> <!-- postRequestTypes.PostRequest_Vai_JSONFileTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
