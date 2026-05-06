@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-04T19:46:05 IST" name="Default suite" finished-at="2026-05-04T19:46:09 IST" duration-ms="4069">
+  <suite started-at="2026-05-05T19:00:55 IST" name="Default suite" finished-at="2026-05-05T19:00:58 IST" duration-ms="2788">
     <groups>
     </groups>
-    <test started-at="2026-05-04T19:46:05 IST" name="Default test" finished-at="2026-05-04T19:46:09 IST" duration-ms="4069">
-      <class name="postRequestTypes.PostRequest_Vai_POJOClassTest">
-        <test-method signature="postDataToServer()[pri:0, instance:postRequestTypes.PostRequest_Vai_POJOClassTest@4b45a2f5]" started-at="2026-05-04T19:46:05 IST" name="postDataToServer" finished-at="2026-05-04T19:46:09 IST" duration-ms="3980" status="PASS">
+    <test started-at="2026-05-05T19:00:55 IST" name="Default test" finished-at="2026-05-05T19:00:58 IST" duration-ms="2788">
+      <class name="requestChaining.Scenario_3_GetPayRollInfo">
+        <test-method signature="sampleTest()[pri:0, instance:requestChaining.Scenario_3_GetPayRollInfo@45099dd3]" started-at="2026-05-05T19:00:55 IST" name="sampleTest" finished-at="2026-05-05T19:00:58 IST" duration-ms="2718" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postDataToServer -->
-      </class> <!-- postRequestTypes.PostRequest_Vai_POJOClassTest -->
+        </test-method> <!-- sampleTest -->
+      </class> <!-- requestChaining.Scenario_3_GetPayRollInfo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
