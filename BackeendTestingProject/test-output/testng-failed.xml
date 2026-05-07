@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="requestChaining.Scenario_3_GetPayRollInfo">
+      <class name="ddt.AddMultipleProjectTest">
         <methods>
           <include name="sampleTest"/>
         </methods>
-      </class> <!-- requestChaining.Scenario_3_GetPayRollInfo -->
+      </class> <!-- ddt.AddMultipleProjectTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

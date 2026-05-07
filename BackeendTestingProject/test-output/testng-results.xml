@@ -1,17 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-05T19:00:55 IST" name="Default suite" finished-at="2026-05-05T19:00:58 IST" duration-ms="2788">
+  <suite started-at="2026-05-06T18:02:46 IST" name="Default suite" finished-at="2026-05-06T18:03:01 IST" duration-ms="15664">
     <groups>
     </groups>
-    <test started-at="2026-05-05T19:00:55 IST" name="Default test" finished-at="2026-05-05T19:00:58 IST" duration-ms="2788">
-      <class name="requestChaining.Scenario_3_GetPayRollInfo">
-        <test-method signature="sampleTest()[pri:0, instance:requestChaining.Scenario_3_GetPayRollInfo@45099dd3]" started-at="2026-05-05T19:00:55 IST" name="sampleTest" finished-at="2026-05-05T19:00:58 IST" duration-ms="2718" status="PASS">
+    <test started-at="2026-05-06T18:02:46 IST" name="Default test" finished-at="2026-05-06T18:03:01 IST" duration-ms="15664">
+      <class name="ddt.AddMultipleProjectTest">
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:47 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:51 IST" duration-ms="3231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-      </class> <!-- requestChaining.Scenario_3_GetPayRollInfo -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:51 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:52 IST" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:52 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:54 IST" duration-ms="2119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:54 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:55 IST" duration-ms="1089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:55 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:56 IST" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:56 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:57 IST" duration-ms="1084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:57 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:58 IST" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:58 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:02:59 IST" duration-ms="1072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:02:59 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:03:00 IST" duration-ms="1072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:ddt.AddMultipleProjectTest@18271936]" started-at="2026-05-06T18:03:00 IST" name="sampleTest" data-provider="getData" finished-at="2026-05-06T18:03:01 IST" duration-ms="1072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google_20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+      </class> <!-- ddt.AddMultipleProjectTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
