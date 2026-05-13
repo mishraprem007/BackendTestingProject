@@ -9,7 +9,7 @@ public class SampleTestForReadTest {
 
 	@Test
 	public void  getDataFromServer() {
-	Response resop=	RestAssured.get("http://49.249.29.4:8091/projects");
+	Response resp=	RestAssured.get("http://49.249.29.4:8091/projects");
 
 	//System.out.println(resop.asString());
 	
@@ -18,11 +18,11 @@ public class SampleTestForReadTest {
 	 */
 	//System.out.println(resop.prettyPrint());
 	
-	resop.then().assertThat().statusCode(200);
+	resp.then().assertThat().statusCode(200);
 	
 	/*
 	 * to display all response  header & body
 	 */
-	resop.then().log().all();
+	resp.then().log().all();
 	}
 }

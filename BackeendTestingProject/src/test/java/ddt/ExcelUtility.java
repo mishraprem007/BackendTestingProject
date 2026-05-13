@@ -14,7 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class ExcelUtility {
 
 	String testDataPath = "./testData/testData_RestAssured.xlsx";
-	
+
 	/**
 	 * read data from excel based on row and column index
 	 * 
@@ -65,15 +65,14 @@ public class ExcelUtility {
 	 * @throws IOException
 	 */
 
-	public void setDataIntoExcel(String sheetName, int rowNum, int cellNum)
+	public void setDataIntoExcel(String sheetName, int rowNum, int columnName, String data)
 			throws EncryptedDocumentException, IOException {
 		FileInputStream fis = new FileInputStream(testDataPath);
 		Workbook wb = WorkbookFactory.create(fis);
-		wb.getSheet(sheetName).getRow(rowNum).createCell(cellNum);
+		wb.getSheet(sheetName).getRow(rowNum).createCell(columnName).setCellValue(data);
 		FileOutputStream fos = new FileOutputStream(testDataPath);
 		wb.write(fos);
 		wb.close();
-
 	}
 
 }

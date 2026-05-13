@@ -13,9 +13,9 @@ public class VerifyResponseBodyVaiJSONPath {
 
 	@Test
 	public void sampleTest1() {
-		Response resop = given().get("http://49.249.29.4:8091/projects-paginated");
+		Response resp = given().get("http://49.249.29.4:8091/projects-paginated");
 
-		resop.then().log().all();
+		resp.then().log().all();
 
 		/*
 		 * whenever we use JSON path available in rest assured we don't use .(dot) it
@@ -43,9 +43,9 @@ public class VerifyResponseBodyVaiJSONPath {
 		 * below we are using inbuilt Rest Assured assertion not testnG, we are checking with response
 		 */
 
-		resop.then().assertThat().body("numberOfElements", Matchers.greaterThanOrEqualTo(20));
-		resop.then().assertThat().body("pageable.sort.unsorted", Matchers.equalTo(true));
-		resop.then().assertThat().body("content[0].projectId", Matchers.equalTo("NH_PROJ_121"));
+		resp.then().assertThat().body("numberOfElements", Matchers.greaterThanOrEqualTo(20));
+		resp.then().assertThat().body("pageable.sort.unsorted", Matchers.equalTo(true));
+		resp.then().assertThat().body("content[0].projectId", Matchers.equalTo("NH_PROJ_121"));
 		
 		/*
 		 * to get multiple match regex[*} not allowed
@@ -58,7 +58,7 @@ public class VerifyResponseBodyVaiJSONPath {
 		/*
 		 * we can get multiple projectName but we can’t do assertion here
 		 */
-		ArrayList<String> lst = resop.jsonPath().get("content.projectName");
+		ArrayList<String> lst = resp.jsonPath().get("content.projectName");
 		
 		System.out.println(lst);
 

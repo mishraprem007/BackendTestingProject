@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ddt.AddMultipleProjectTest">
+      <class name="com.ninza.hrm.api.employeetest.EmployeeTest">
         <methods>
-          <include name="sampleTest"/>
+          <include name="addEmployeeWithoutEmailTest"/>
         </methods>
-      </class> <!-- ddt.AddMultipleProjectTest -->
+      </class> <!-- com.ninza.hrm.api.employeetest.EmployeeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

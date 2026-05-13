@@ -14,8 +14,8 @@ class VerifyData_ComplexJSONXpath {
 
 	@Test
 	public void sampleTest() {
-		Response resop = given().get("http://49.249.29.4:8091/projects-paginated");
-		resop.then().log().all();
+		Response resp = given().get("http://49.249.29.4:8091/projects-paginated");
+		resp.then().log().all();
 
 		/*
 		 * We don't need 3rd args in read() here as filter
@@ -25,7 +25,7 @@ class VerifyData_ComplexJSONXpath {
 		 * here we can display all information and do assertion as well as we added
 		 * jsonpath dependency
 		 */
-		List<String> list = JsonPath.read(resop.asString(), "content[*].projectName");
+		List<String> list = JsonPath.read(resp.asString(), "content[*].projectName");
 
 		for (String data : list) {
 			System.out.println(data);

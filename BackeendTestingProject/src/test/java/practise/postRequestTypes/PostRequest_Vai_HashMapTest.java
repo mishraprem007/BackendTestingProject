@@ -1,4 +1,4 @@
-package postRequestTypes;
+package practise.postRequestTypes;
 
 import java.util.HashMap;
 

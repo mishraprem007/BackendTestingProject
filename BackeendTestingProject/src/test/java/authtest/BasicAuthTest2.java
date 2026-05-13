@@ -4,9 +4,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 public class BasicAuthTest2 {
-	/*
-	 * There is some backend configuration issue it seems, website doesn't load
-	 */
+	
 	@Test
 	public void sampleTest() {
 	given()

@@ -3,7 +3,7 @@ package PojoClassUtility;
 public class EmployeePOJO {
 	/*
 	 * We need to create empty constructor as well which is required for
-	 * deserialization and it's mandatory 
+	 * deserialization and it's mandatory
 	 */
 	private EmployeePOJO() {
 
@@ -23,14 +23,15 @@ public class EmployeePOJO {
 		this.username = username;
 	}
 
-	public String designation;
-	public String dob;
-	public String email;
-	public String empName;
-	public double experience;
-	public String mobileNo;
-	public String project;
-	public String role;
+	private String designation;
+	private String dob;
+	private String email;
+	private String empName;
+	private double experience;
+	private String mobileNo;
+	private String project;
+	private String role;
+	private String username;
 
 	public String getDesignation() {
 		return designation;
@@ -103,7 +104,5 @@ public class EmployeePOJO {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-
-	public String username;
 
 }

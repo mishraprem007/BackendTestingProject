@@ -1,4 +1,4 @@
-package postRequestTypes;
+package practise.postRequestTypes;
 
 import static io.restassured.RestAssured.given;
 

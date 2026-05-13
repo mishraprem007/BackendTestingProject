@@ -15,20 +15,20 @@ class VerifyData_ComplexJSONXpathBasedOnCondition {
 
 	@Test
 	public void sampleTest() {
-		Response resop = given().get("http://49.249.29.4:8091/projects-paginated");
-		resop.then().log().all();
+		Response resp = given().get("http://49.249.29.4:8091/projects-paginated");
+		resp.then().log().all();
 
 		/*
 		 * here we can display all information and do assertion as well as we added
 		 * jsonpath dependency
 		 */
-		List<String> list = JsonPath.read(resop.asString(), "content[*].projectName");
+		List<String> list = JsonPath.read(resp.asString(), "content[*].projectName");
 
 		for (String data : list) {
 			System.out.println(data);
 		}
 
-		List<String> list1 = JsonPath.read(resop.asString(), "content[*].[?(@.projectName=='NinzaCRM_03')].projectId");
+		List<String> list1 = JsonPath.read(resp.asString(), "content[*].[?(@.projectName=='NinzaCRM_03')].projectId");
 		String actProjectID = list1.get(0);
 		/*
 		 * After extracting the data, we can't do Rest Assured assertion but we can do
